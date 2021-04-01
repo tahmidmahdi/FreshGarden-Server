@@ -13,7 +13,9 @@ const port = process.env.PORT || 5055
 
 
 
-
+app.get('/', (req, res) =>{
+  res.send('Server Is Working!')
+})
 
 
 
